@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+      "allowJs": false,
+      "lib": [],
+      "strict": true
+    },
+    "lint": {
+      "files": {
+        "include": ["src/"],
+        "exclude": ["src/testdata/"]
+      },
+      "rules": {
+        "tags": ["recommended"],
+        "include": ["ban-untagged-todo"],
+        "exclude": ["no-unused-vars"]
+      }
+    },
+    "fmt": {
+      "files": {
+        "include": ["src/"],
+        "exclude": ["src/testdata/"]
+      },
+      "options": {
+        "useTabs": false,
+        "lineWidth": 256,
+        "indentWidth": 4,
+        "singleQuote": false,
+        "proseWrap": "always"
+      }
+    }
+  }
